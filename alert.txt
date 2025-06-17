@@ -1,0 +1,29 @@
+[**] [1:1000001:0] SQL Injection Attempt Detected [**]
+[Priority: 1] 
+04/07-12:23:01.123456 192.168.1.10:443 -> 10.0.0.5:1024
+TCP TTL:64 TOS:0x0 ID:12345 IpLen:20 DgmLen:150 DF
+***A**** Seq: 0x12345678  Ack: 0x87654321  Win: 0x2000  TcpLen: 32
+
+[**] [1:1000002:0] Suspicious Login Attempt [**]
+[Priority: 2] 
+04/07-12:24:12.654321 172.16.0.3:22 -> 192.168.1.20:5555
+TCP TTL:128 TOS:0x0 ID:54321 IpLen:20 DgmLen:60 DF
+***AP*** Seq: 0x789ABC  Ack: 0xCBA987  Win: 0x4000  TcpLen: 32
+
+[**] [1:1000003:0] ICMP Ping Detected [**]
+[Priority: 3] 
+04/07-12:25:43.987654 10.0.0.2:0 -> 192.168.1.1:0
+ICMP TTL:255 TOS:0x0 ID:0 IpLen:20 DgmLen:56
+Type:8  Code:0  ID:12345   Seq:1  ECHO
+
+[**] [1:1000004:0] Port Scan Detected [**]
+[Priority: 1] 
+04/07-12:27:11.001122 192.168.1.25:65000 -> 10.0.0.10:80
+TCP TTL:64 TOS:0x0 ID:9999 IpLen:20 DgmLen:60 DF
+***S**** Seq: 0xABCDEF01  Ack: 0x00000000  Win: 0x1000  TcpLen: 32
+
+[**] [1:1000005:0] Outdated TLS Detected [**]
+[Priority: 2] 
+04/07-12:28:55.443322 192.168.1.30:443 -> 172.16.0.4:1234
+TCP TTL:128 TOS:0x0 ID:6666 IpLen:20 DgmLen:60 DF
+***PA*** Seq: 0x999999  Ack: 0x111111  Win: 0x3000  TcpLen: 32
